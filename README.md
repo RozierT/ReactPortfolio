@@ -1,2 +1,0 @@
-# ReactPortfolio
-A Professional Portfolio

@@ -1,30 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// Bringing in the required import from 'react-router-dom'
+import { Outlet } from 'react-router-dom';
+import Nav from './components/NavTabs';
+import Footer from './components/Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
-      <nav>
-      <h1>Rozier</h1>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact Me</a></li>
-        </ul>
-      </nav>
-      
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
+      <Nav />
+      <main className="mx-3">
+        <Outlet />
+      </main>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
