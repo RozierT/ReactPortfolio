@@ -4,7 +4,7 @@ This is my online portfolio that includes my resume, contact information, and a 
 
 ## Installation
 
-You can install and modify this application by visiting the github repository https://github.com/RozierT/ReactPortfolio and taking the SSH key and cloning it on your local device
+You can install and modify this application by visiting the github repository https://github.com/RozierT/ReactPortfolio and taking the SSH key and cloning it on your local device. Then run an npm i to install the dependencies and an npm run dev to begin running the application
 
 ## Usage
 
