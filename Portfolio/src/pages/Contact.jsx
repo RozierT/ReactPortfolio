@@ -1,20 +1,19 @@
+import Footer from "../components/Footer";
+import { Link } from 'react-router-dom';
+
 export default function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <h1>Contact Me</h1>
+    <ul>
+      <li> GitHub: <Link to="https://github.com/RozierT"> https://github.com/RozierT </Link>
+        </li>
+      <li>LinkedIn: <Link to="https://www.linkedin.com/in/taylor-rozier-a76247105/"> https://www.linkedin.com/in/taylor-rozier</Link>
+        </li>
+      <li> Email: <a href="mailto:Roziertaylor@gmail.com">roziertaylor@gmail.com</a>
+        </li>
+    </ul>
     </div>
+    
   );
 }
