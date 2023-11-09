@@ -16,11 +16,16 @@ function NavTabs() {
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
         <Link to="/"className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>
+          Home
+        </Link>
+        </li>
+        <li className="nav-item">
+        <Link to="/About"className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}>
           About
         </Link>
         </li>
         <li className="nav-item">
-        <Link to="/Portfolio"className={currentPage === '/Blog' ? 'nav-link active' : 'nav-link'}>
+        <Link to="/Portfolio"className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}>
           Portfolio
         </Link>
         </li>
