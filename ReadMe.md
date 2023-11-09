@@ -8,6 +8,8 @@ You can install and modify this application by visiting the github repository ht
 
 ## Usage
 
+![Screenshot](./src/assets/images/ReactPortfolio.png)
+
 View this application by visiting roziert.github.io/ReactPortfolio/
 
 ## License
