@@ -12,7 +12,7 @@ function Projects() {
         <img src= {VVhomepage} div className="card-img-top " alt="Vibrant Vocab App" style={{minHeight: 350}}/></a>
       <div className="card-body">
         <h5 className="card-title">Vibrant Vocab</h5>
-        <p className="card-text">Use this decorative dictory app to learn definitions and expand your vocabulary
+        <p className="card-text">Use this decorative dictory app to look up definitions and expand your vocabulary
         Visit the github repository here <a href="https://github.com/kthao21/Vibrant_Vocab">https://github.com/kthao21/Vibrant_Vocab</a></p>
       </div>
     </div>
@@ -53,5 +53,91 @@ function Projects() {
 </div>
     )
 }
+
+//--------------------------------------------------------------
+// function ListGroup() {
+//   const myprojects = [
+//         { 
+//           id: 1, 
+//           name: 'Vibrant Vocab', 
+//           link: 'https://kthao21.github.io/Vibrant_Vocab/', 
+//           description: 'Use this decorative dictory app to look up definitions and expand your vocabulary', 
+//           img: {VVhomepage}, 
+//           github: 'https://github.com/kthao21/Vibrant_Vocab' 
+//         },
+//         { 
+//           id: 2, 
+//           name: 'Password Generator', 
+//           link: 'https://roziert.github.io/PasswordGenerator/', 
+//           description: 'Use this app to create secure unique passwords for all your applications', 
+//           img: {PWGen}, 
+//           github: 'https://github.com/RozierT/PasswordGenerator' 
+//         },
+//         { id: 3, name: 'Quiz', link: 'https://roziert.github.io/Quiz/', description: 'This is a simple quiz app that you can use as a study aid to help remember important information', img: {Quiz}, github: 'https://github.com/RozierT/Quiz' },
+//         { id: 4, name: 'Employee Tracker', link: 'https://github.com/RozierT/EmployeeTracker', description: 'This is a command line application that can be used to store employee role, manager, and salary data.', img: {ET}, github: 'https://github.com/RozierT/EmployeeTracker' },
+//     ]
+    
+
+//   return <Projects projects={myprojects} />;
+// }
+
+// function Projects({ projects }) {
+//   return (
+//     <>
+//       {projects.map((project) => (
+//         <div className="row row-cols-1 row-cols-md-2 g-4" key={project.id}>
+//           <div className="col">
+//             <div className="card">
+//               <a href={project.link}>
+//                 <img src={project.img} className="card-img-top" alt={project.name} style={{ minHeight: 350 }} />
+//               </a>
+//               <div className="card-body">
+//                 <h5 className="card-title">{project.name}</h5>
+//                 <p className="card-text">
+//                   {project.description}
+//                   <br />
+//                   Visit the github repository here <a href={project.github}>{project.github}</a>
+//                 </p>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       ))}
+//     </>
+//   );
+//}
+
+//--------------------------------------------
+// function ListGroup() {
+// const projects = [
+//     { id: 1, name: 'Vibrant Vocab', link: 'https://kthao21.github.io/Vibrant_Vocab/', description: 'Use this decorative dictory app to look up definitions and expand your vocabulary', img: {VVhomepage}, github: 'https://github.com/kthao21/Vibrant_Vocab' },
+//     { id: 2, name: 'Password Generator', link: 'https://roziert.github.io/PasswordGenerator/', description: 'Use this app to create secure unique passwords for all your applications', img: {PWGen}, github: 'https://github.com/RozierT/PasswordGenerator' },
+//     { id: 3, name: 'Quiz', link: 'https://roziert.github.io/Quiz/', description: 'This is a simple quiz app that you can use as a study aid to help remember important information', img: {Quiz}, github: 'https://github.com/RozierT/Quiz' },
+//     { id: 4, name: 'Employee Tracker', link: 'https://github.com/RozierT/EmployeeTracker', description: 'This is a command line application that can be used to store employee role, manager, and salary data.', img: {ET}, github: 'https://github.com/RozierT/EmployeeTracker' },
+// ]
+// }
+
+
+
+// function Projects(projects) {
+//   return (
+//     <>
+//     {projects.map((project) => 
+//       <div className="row row-cols-1 row-cols-md-2 g-4">
+//       <div className="col">
+//         <div className="card">
+//         <a href={project.link}>
+//             <img src= {project.img} div className="card-img-top " alt={project.name} style={{minHeight: 350}}/></a>
+//           <div className="card-body">
+//             <h5 className="card-title">{project.name}</h5>
+//             <p className="card-text">{project.description}
+//             <br></br>Visit the github repository here <a href={project.github}>{project.github}</a></p>
+//           </div>
+//         </div>
+//       </div>
+//       </div>)}
+//   )
+// </>
+
 
 export default Projects
